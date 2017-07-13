@@ -1,0 +1,118 @@
+body {
+    background: url('https://vignette2.wikia.nocookie.net/twinpeaks/images/b/b0/64-Red-Room-Empty.jpg/revision/latest?cb=20111126084844') no-repeat center fixed;
+    background-size: cover;
+}
+
+h1 {
+    color: #5e3a38;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: -2.5px 0 #2ab650,0 2.5px #2ab650,2.5px 0 #2ab650,0 -2.5px #2ab650;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 8em;
+}
+
+h3 {
+    color: #5e3a38;
+    text-transform: uppercase;
+    text-shadow: -2.5px 0 #2ab650,0 2.5px #2ab650,2.5px 0 #2ab650,0 -2.5px #2ab650;
+    font-family: 'Pathway Gothic One', sans-serif;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #ccc;
+}
+
+a:hover {
+    color: #ddd;
+}
+
+p {
+   color: #ccc;
+   font-family: 'Pathway Gothic One', sans-serif;
+}
+
+.entry {
+    text-align: center;
+    padding: .5em;
+}
+
+.error {
+    color: red;
+    text-align: center;
+    font-size: 1.2em;
+    margin: .5em;
+}
+
+.submit {
+   background-color: #ddd;
+   font-family: 'Pathway Gothic One', sans-serif;
+   color: #000000;
+   border: none;
+   display: inline-block;
+   text-decoration: none;
+   padding: 1em;
+}
+
+.submit:hover {
+    text-decoration: underline;
+}
+
+label {
+    display: block;
+    font-family: 'Pathway Gothic One', sans-serif;
+    color: #eee;
+    font-size: 1.2em;
+    margin-bottom: .3em;
+}
+
+.title {
+    margin-left: 2em;
+}
+
+.body {
+    margin-left: 3.5em;
+    margin-right: 3.5em;
+}
+
+nav {
+    margin: auto;
+    padding: 1em;
+}
+
+footer {
+    color: #5e3a38;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: -2.5px 0 #2ab650,0 2.5px #2ab650,2.5px 0 #2ab650,0 -2.5px #2ab650;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 3em;
+    margin-top: .5em;
+    margin-bottom: 1em;
+}
+
+input[type=text] {
+    background-color:  	#faf0f0;
+    color: #333;
+    width: 78%;
+    border: .01em solid #514d54;
+    font-family: 'Pathway Gothic One', sans-serif;;
+    padding: 1em;
+}
+
+textarea {
+    width: 80%;
+    height: 10em;
+    padding: 1em;
+    background-color:  	#faf0f0;
+    color: #333;
+    resize: none;
+    box-sizing: border-box;
+    border: .01em solid #514d54;
+    font-family: 'Pathway Gothic One', sans-serif;
+}
